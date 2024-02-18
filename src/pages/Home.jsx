@@ -6,7 +6,7 @@ function ColContents(props) {
   const navigator = useNavigate();
 
   const handleViewMore = () => {
-    navigator(`/${props.id}`);
+    navigator(`/dashboard/${id}`);
   };
 
   return (
